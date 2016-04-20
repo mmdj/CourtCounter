@@ -7,6 +7,10 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    private final int POINTS_FOR_FREE_THROW = 1;
+
+    private int mScoreTeamA = 0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
