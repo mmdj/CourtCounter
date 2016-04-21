@@ -8,6 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
 
         <!-- Background color of buttons in the app -->
+        <!-- Will only work on phones running API 22 and above. So if you have an older phone, the buttons will not be colored orange.-->
         <item name="colorButtonNormal">@color/colorPrimary</item>
     </style>
 
