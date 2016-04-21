@@ -25,6 +25,9 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="4dp"
+                android:textColor="#616161"
+                android:textSize="14sp"
+                android:fontFamily="sans-serif-medium"
                 android:text="Team A" />
 
             <TextView
@@ -33,6 +36,9 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="4dp"
+                android:textColor="#000000"
+                android:textSize="56sp"
+                android:fontFamily="sans-serif-light"
                 android:text="0" />
 
             <Button
@@ -73,6 +79,9 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="4dp"
+                android:textColor="#616161"
+                android:textSize="14sp"
+                android:fontFamily="sans-serif-medium"
                 android:text="Team B" />
 
             <TextView
@@ -81,6 +90,9 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="4dp"
+                android:textColor="#000000"
+                android:textSize="56sp"
+                android:fontFamily="sans-serif-light"
                 android:text="0" />
 
             <Button
