@@ -34,7 +34,8 @@ public class MainActivity extends AppCompatActivity {
      */
     public void addThreeForTeamA(View view) {
         int step = 3;
-        displayForTeamA(step);
+        mScoreTeamA += step;
+        displayForTeamA(mScoreTeamA);
     }
 
     /**
@@ -42,14 +43,16 @@ public class MainActivity extends AppCompatActivity {
      */
     public void addTwoForTeamA(View view) {
         int step = 2;
-        displayForTeamA(step);
+        mScoreTeamA += step;
+        displayForTeamA(mScoreTeamA);
     }
 
     /**
      * Increases the score for Team A by 1 point.
      */
     public void addOneForTeamA(View view) {
-        int step = 1;
-        displayForTeamA(step);
+        int step = POINTS_FOR_FREE_THROW;
+        mScoreTeamA += step;
+        displayForTeamA(mScoreTeamA);
     }
 }
