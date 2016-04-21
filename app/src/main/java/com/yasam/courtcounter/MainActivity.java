@@ -94,4 +94,16 @@ public class MainActivity extends AppCompatActivity {
         mScoreTeamB += step;
         displayForTeamB(mScoreTeamB);
     }
+
+
+    /**
+     * Resets all scores for Team A and Team B
+     */
+    public void resetScoresAll(View view) {
+        mScoreTeamA = 0;
+        mScoreTeamB = 0;
+
+        displayForTeamA(mScoreTeamA);
+        displayForTeamB(mScoreTeamB);
+    }
 }
