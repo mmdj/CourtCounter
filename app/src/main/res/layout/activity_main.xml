@@ -4,41 +4,88 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     tools:context="com.yasam.courtcounter.MainActivity">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:padding="4dp"
-        android:text="Team A" />
-    <TextView
-        android:id="@+id/txtVw_scoreTeamA"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:padding="4dp"
-        android:text="0" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:onClick="addThreeForTeamA"
-        android:text="+3 Points"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="Team A" />
+        <TextView
+            android:id="@+id/txtVw_scoreTeamA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="0" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:onClick="addTwoForTeamA"
-        android:text="+2 Points"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:onClick="addThreeForTeamA"
+            android:text="+3 Points"/>
 
-    <Button
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:onClick="addTwoForTeamA"
+            android:text="+2 Points"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:onClick="addOneForTeamA"
+            android:text="FREE THROW"/>
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:onClick="addOneForTeamA"
-        android:text="FREE THROW"/>
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="Team A" />
+        <TextView
+            android:id="@+id/txtVw_scoreTeamA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="0" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:onClick="addThreeForTeamA"
+            android:text="+3 Points"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:onClick="addTwoForTeamA"
+            android:text="+2 Points"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:onClick="addOneForTeamA"
+            android:text="FREE THROW"/>
+    </LinearLayout>
 </LinearLayout>
