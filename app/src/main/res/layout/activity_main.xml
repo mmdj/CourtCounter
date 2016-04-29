@@ -37,8 +37,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:paddingBottom="16dp"
-                android:paddingTop="16dp"
+
+                android:padding="16dp"
+
                 android:textColor="#000000"
                 android:textSize="56sp"
                 android:fontFamily="sans-serif-light"
@@ -93,8 +94,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-               android:paddingBottom="16dp"
-                android:paddingTop="16dp"
+
+                android:padding="16dp"
+
                 android:textColor="#000000"
                 android:textSize="56sp"
                 android:fontFamily="sans-serif-light"

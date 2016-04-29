@@ -2,6 +2,7 @@ package com.yasam.courtcounter;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.TypedValue;
 import android.view.View;
 import android.widget.TextView;
 
@@ -28,6 +29,9 @@ public class MainActivity extends AppCompatActivity {
     private void displayForTeamA(int score){
         TextView scoreTeamA = (TextView) findViewById(R.id.txtVw_scoreTeamA);
         if(scoreTeamA!=null)
+            if (score>99){
+               scoreTeamA.setTextSize(TypedValue.COMPLEX_UNIT_SP,48);
+            }
             scoreTeamA.setText(String.valueOf(score));
     }
     /**
@@ -37,6 +41,9 @@ public class MainActivity extends AppCompatActivity {
     private void displayForTeamB(int score){
         TextView scoreTeamB = (TextView) findViewById(R.id.txtVw_scoreTeamB);
         if(scoreTeamB!=null)
+            if (score>99){
+                scoreTeamB.setTextSize(TypedValue.COMPLEX_UNIT_SP,48);
+            }
             scoreTeamB.setText(String.valueOf(score));
     }
 
